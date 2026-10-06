@@ -241,6 +241,6 @@ fn main() -> io::Result<()> {
     // Save all computed embeddings and comparisons to files
     save_embeddings_to_files(&all_results, &all_sims)?;
 
-    println!("\n All done! You can now present the architecture and the generated embeddings file to the panel.\n");
+    println!("\n All done!\n");
     Ok(())
 }
